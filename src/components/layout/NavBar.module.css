@@ -1,18 +1,22 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #222;
+  background-color: #1D252C;
   padding: 1em;
+  
 }
 
 .list {
   display: flex;
   list-style: none;
   align-items: center;
+  gap: 30px;
 }
 
 .item {
   margin-right: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .item a {
